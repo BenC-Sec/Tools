@@ -12,7 +12,7 @@ Based on IBM's timeline generator (http://example.com)
 
 ## Features
 
-- User interface for entering endpoints, users and events
+- User interface for entering endpoints, usernames, account types and events
 - Ability to filter by endpoints, usernames and time periods
 - Improves readability of generated timeline
 - Creates JSON files containing investigations
