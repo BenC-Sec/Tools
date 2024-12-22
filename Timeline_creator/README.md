@@ -8,7 +8,7 @@ timelines. This tool allows for the easy generation of PNG files,
 which can be seamlessly included in investigative reports, providing 
 clear visual representations of key events and activities.
 
-Based on IBM's timeline generator (http://example.com)
+Based on IBM's timeline generator (https://github.com/IBM/timeline-generator/tree/main)
 
 ## Features
 
