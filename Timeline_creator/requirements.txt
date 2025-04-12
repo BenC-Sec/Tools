@@ -1,4 +1,8 @@
+pydantic>=2.10.6
 ipywidgets>=8.0.0
-pandas
-matplotlib
-IPython
+pandas>=2.2.3
+matplotlib>=3.10.1
+ipython>=9.0.2
+jupyterlab>=4.3.6
+ipydatetime>=1.2.0
+jupyterlab-widgets>=3.0.13
