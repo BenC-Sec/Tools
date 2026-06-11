@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Investigation data + generated timelines (don't commit case data)
+*.jsonl
+*.meta.json
+*.svg
+*.png
+event_log.log

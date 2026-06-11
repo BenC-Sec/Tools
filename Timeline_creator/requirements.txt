@@ -1,8 +1,15 @@
+# Runtime dependencies for Timeline Creator.
+# The pure core (models, io, importers, filters, colour, layout) needs only
+# pydantic + the standard library. matplotlib/ipywidgets/ipympl are used by the
+# render and notebook UI layers; openpyxl is used for .xlsx import.
 pydantic>=2.10.6
-ipywidgets>=8.0.0
-pandas>=2.2.3
 matplotlib>=3.10.1
+ipywidgets>=8.0.0
+ipympl>=0.9.4
+openpyxl>=3.1.0
 ipython>=9.0.2
 jupyterlab>=4.3.6
-ipydatetime>=1.2.0
 jupyterlab-widgets>=3.0.13
+
+# Development / testing only:
+#   pytest>=8.0
