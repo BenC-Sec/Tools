@@ -1,0 +1,14 @@
+# Binder environment for the Timeline Creator notebook
+# (Timeline_creator/Timeline_create.ipynb).
+#
+# Binder reads environment config from the repo root or this binder/ folder,
+# not from the Timeline_creator/ subdirectory — hence this mirror of
+# Timeline_creator/requirements.txt.
+pydantic>=2.10.6
+matplotlib>=3.10.1
+ipywidgets>=8.0.0
+ipympl>=0.9.4
+openpyxl>=3.1.0
+ipython>=9.0.2
+jupyterlab>=4.3.6
+jupyterlab-widgets>=3.0.13
