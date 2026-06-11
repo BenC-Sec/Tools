@@ -455,7 +455,7 @@ class TimelineApp:
                 if not events:
                     self._status(status, "no events match the current filters.", error=True)
                     return
-                self._show(self._get_renderer().render(events))
+                _show(self._get_renderer().render(events))
             except Exception as exc:  # noqa: BLE001
                 self._status(status, str(exc), error=True)
 
