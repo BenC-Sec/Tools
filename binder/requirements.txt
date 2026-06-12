@@ -1,14 +1,12 @@
-# Binder environment for the Timeline Creator notebook
-# (Timeline_creator/Timeline_create.ipynb).
+# Binder builds ONE environment for the whole BenC-Sec/Tools repo. Rather than
+# duplicating each tool's dependencies here, aggregate the tools' own
+# requirements files so each tool's list stays the single source of truth.
 #
-# Binder reads environment config from the repo root or this binder/ folder,
-# not from the Timeline_creator/ subdirectory — hence this mirror of
-# Timeline_creator/requirements.txt.
-pydantic>=2.10.6
-matplotlib>=3.10.1
-ipywidgets>=8.0.0
-ipympl>=0.9.4
-openpyxl>=3.1.0
-ipython
-jupyterlab>=4.3.6
-jupyterlab-widgets>=3.0.13
+# To add a new tool: drop a `<NewTool>/requirements.txt` in its folder and add
+# one line below. Keep an eye out for version conflicts between tools — they all
+# share this one environment.
+#
+# pip resolves these -r paths relative to THIS file (the binder/ folder).
+
+-r ../Timeline_creator/requirements.txt
+# -r ../NextTool/requirements.txt
